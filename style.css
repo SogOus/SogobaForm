@@ -1,0 +1,45 @@
+body{
+    background-image: url("emphi.jpg");
+    
+}
+fieldset{
+    color: white;
+    margin-top: 10%;
+    margin-left: 30%;
+    text-align: center;
+    width: 500px;
+    height: auto;
+    font-size: 20px;
+    padding: 20px;
+
+}
+table {
+    background-color: gray;
+    width: 480px;
+    padding: 10px;
+}
+td {
+    
+    padding: 5px;
+}
+button{
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+#sub{
+    background-color: green; 
+    color: white;
+    border-color: green;
+    border-radius: 5px;
+}
+#rst{
+    background-color: red; 
+    color: white;
+    border-color: red;
+    border-radius: 5px;
+}
+
+
+
+

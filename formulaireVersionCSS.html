@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action method="post">
+            <fieldset>
+                <legend>Inscription IUFP - Ségou</legend>
+                <table>
+
+                    <div>
+                        <tr>
+                            <td><label for="prenom">Prénom :</label></td>
+                            <td><input type="text" name="prenom" id="prenom"
+                                    placeholder="Prénom" required></td>
+                        </tr>
+                    </div>
+
+                    <div>
+                        <tr>
+                            <td><label for="nom">Nom :</label></td>
+                            <td><input type="text" name="nom" id="nom"
+                                    placeholder="Nom" required></td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td><label for="email">Email :</label></td>
+                            <td> <input type="mail" name="email" id="email"
+                                    placeholder="email" required></td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td><label for="tel">Téléphone:</label></td>
+                            <td><input type="text" name="tel" id="tel"
+                                    placeholder="XX-XX-XX-XX" required></td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td><label for="filiere">Filière :</label></td>
+                            <td><select name="filiere" id="filiere"
+                                    max-lenght="50px">
+                                    <option value="Choisir">Choisir</option>
+                                    <option value="GI">GI</option>
+                                    <option value="CFA">CFA</option>
+                                    <option value="AG">AG</option>
+                                    <option value="MC">MC</option>
+                                    <option value="HT">HT</option>
+                                    <option value="3ER">3ER</option>
+                                </select></td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>
+                                <label for="L1">L1</label>
+                                <input type="checkbox" name="L1" id="L1">
+                            </td>
+                            <td>
+                                <label for="L2">L2</label>
+                                <input type="checkbox" name="L2" id="L2">
+                            </td>
+                            <td>
+                                <label for="L3">L3</label>
+                                <input type="checkbox" name="L3" id="L3">
+                            </td>
+                        </tr>
+
+                    </div>
+                    <div>
+                        <tr>
+                            <td><label for="image">Photo:</label></td>
+                            <td><input type="file" name="image" id="image" src
+                                    alt></td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td><button type="submit"
+                                    id="sub">Enregistrer</button></td>
+                            <td><button type="reset"
+                                    id="rst">Annuler</button></td>
+                        </tr>
+
+                    </div>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>
